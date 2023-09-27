@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Garden Form </title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header>
+        <h1>FORM NAME</h1>
+        <nav>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="submit.html">Submit Article</a></li>
+          </ul>
+        </nav>
+      </header>
+
+      <form action="/action_page.php" method="post">
+      
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required><br><br>
+       
+       
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required><br><br>
+
+        <label for="date-of-birth">DOB:</label>
+        <input type="date" id="date-of-birth" name="date-of-birth"><br><br>
+       
+       
+        <label for="favorite-color">COLOR:</label>
+        <input type="color" id="favorite-color" name="favorite-color"><br><br>
+      
+        <label for="lucky-number">LUCKY NUM:</label>
+        <input type="number" id="lucky-number" name="lucky-number"><br><br>
+
+        <label for="confirmation">CONFIRM:</label>
+        <input type="checkbox" id="confirmation" name="confirmation"><br><br>
+
+        <input type="submit" value="Submit">
+      </form>
+    
+</body>
+</html>
